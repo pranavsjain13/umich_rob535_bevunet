@@ -39,40 +39,40 @@ The architecture is intentionally lightweight while remaining competitive with h
 |--------|------|-----------|--------|
 | Clear  | 0.419 | 0.437 | 0.936 |
 | Rainy  | 0.251 | 0.253 | 0.971 |
-| Foggy  | 0.212 | 0.213 | 0.958 |
+| Foggy  | 0.212 | 0.213 | 0.957 |
 
 ---
 
 ## Repository Structure
-CARLA_PERCEPTION_DATASET/
-├── carla_dataset/
-│   ├── clear/
-│   │   └── calib/                 # Camera calibration files (intrinsics & extrinsics)
-│   ├── rainy/
-│   │   └── calib/
-│   └── foggy/
-│       └── calib/
-│
-├── multi_images/
-│   ├── clear/
-│   │   └── scene_0001/             # Multi-view RGB images for clear weather
-│   ├── rainy/
-│   │   └── scene_0001/             # Multi-view RGB images for rainy weather
-│   └── foggy/
-│       └── scene_0001/             # Multi-view RGB images for foggy weather
-│
-├── pseudo_labels/
-│   ├── clear/
-│   │   └── scene_0001/             # BEV pseudo-labels for clear weather
-│   ├── rainy/
-│   │   └── scene_0001/             # BEV pseudo-labels for rainy weather
-│   └── foggy/
-│       └── scene_0001/             # BEV pseudo-labels for foggy weather
-│
-├── BEVUNet.ipynb                   # Main notebook: model, training, evaluation
-├── CARLA.ipynb                     # CARLA data preprocessing and handling
-├── bev_unet_multiview_best.pth     # Trained BEVUNet model checkpoint
-└── README.md                       # Project documentation
+CARLA_PERCEPTION_DATASET/<br>
+├── carla_dataset/<br>
+│   ├── clear/<br>
+│   │   └── calib/                 # Camera calibration files (intrinsics & extrinsics)<br>
+│   ├── rainy/<br>
+│   │   └── calib/<br>
+│   └── foggy/<br>
+│       └── calib/<br>
+│<br>
+├── multi_images/<br>
+│   ├── clear/<br>
+│   │   └── scene_0001/             # Multi-view RGB images for clear weather<br>
+│   ├── rainy/<br>
+│   │   └── scene_0001/             # Multi-view RGB images for rainy weather<br>
+│   └── foggy/<br>
+│       └── scene_0001/             # Multi-view RGB images for foggy weather<br>
+│<br>
+├── pseudo_labels/<br>
+│   ├── clear/<br>
+│   │   └── scene_0001/             # BEV pseudo-labels for clear weather<br>
+│   ├── rainy/<br>
+│   │   └── scene_0001/             # BEV pseudo-labels for rainy weather<br>
+│   └── foggy/<br>
+│       └── scene_0001/             # BEV pseudo-labels for foggy weather<br>
+│<br>
+├── BEVUNet.ipynb                   # Main notebook: model, training, evaluation<br>
+├── CARLA.ipynb                     # CARLA data preprocessing and handling<br>
+├── bev_unet_multiview_best.pth     # Trained BEVUNet model checkpoint<br>
+└── README.md                       # Project documentation<br>
 
 
 ---
@@ -137,5 +137,10 @@ This project is intended for academic and research use.
 ---
 ## Acknowledgements
 
-This work was developed as part of research on robust camera-only BEV perception under adverse weather conditions.
+This work was developed as part of research on robust camera-only BEVUNet perception under adverse weather conditions. <br>
+
+**Team members:**
+1. Pranav Jain<br>
+2. Avantika Rattan<br>
+3. Venkatakrishnan Amruthur Kesavan<br>
 
