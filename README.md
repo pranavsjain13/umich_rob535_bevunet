@@ -69,10 +69,10 @@ CARLA_PERCEPTION_DATASET/<br>
 │   └── foggy/<br>
 │       └── scene_0001/             # BEV pseudo-labels for foggy weather<br>
 │<br>
-├── BEVUNet.ipynb                   # Main notebook: model, training, evaluation<br>
-├── CARLA.ipynb                     # CARLA data preprocessing and handling<br>
-├── bev_unet_multiview_best.pth     # Trained BEVUNet model checkpoint<br>
-└── README.md                       # Project documentation<br>
+BEVUNet.ipynb                   # Main notebook: model, training, evaluation<br>
+CARLA.ipynb                     # CARLA data preprocessing and handling<br>
+bev_unet_multiview_best.pth     # Trained BEVUNet model checkpoint<br>
+README.md                       # Project documentation<br>
 
 
 ---
