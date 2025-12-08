@@ -99,7 +99,7 @@ torch.save(model.state_dict(), "bev_unet_multiview_best.pth")
 
 ```python
 model = BEVUNet(in_ch=18, base_ch=32)
-model.load_state_dict(torch.load("bevunet_weights.pth"))
+model.load_state_dict(torch.load("bev_unet_multiview_best.pth"))
 model.eval()
 ```
 
